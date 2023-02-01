@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+html, body {
+margin: 0;
+padding: 0;
+height: 100%;
+width: 100%;
+}
+
+.a1 {
+float: left;
+width: 100px;
+height: 100px;
+background-color: red;
+}
+
+.a2 {
+float: left;
+width: 100px;
+height: 100px;
+background-color: black;
+}
+
+.a3 {
+clear: left;
+float: left;
+width: 100px;
+height: 100px;
+background-color: black;
+}
+
+.a4 {
+float: left;
+width: 100px;
+height: 100px;
+background-color: red;
+}
+
+.b1 {
+clear: left;
+width: 300px;
+height: 200px;
+background-color: green;
+}
+
+.b2 {
+position: relative;
+top: 25px;
+margin: auto;
+width: 250px;
+height: 150px;
+background-color: blue;
+}
+
+.b3 {
+width: 100px;
+height: 100px;
+background-color: orange;
+}
+
+.c1 {
+float: left;
+border: solid;
+width: 100px;
+height: 100px;
+background-color: yellow;
+}
+
+.c2 {
+position: absolute;
+left: 200px;
+border: solid;
+width: 100px;
+height: 100px;
+background-color: blue;
+}
+
+.c3 {
+clear: left;
+position: relative;
+left: 100px;
+border: solid;
+width: 100px;
+height: 100px;
+background-color: red;
+}
+
+.c4 {
+float: left;
+border: solid;
+width: 100px;
+height: 100px;
+background-color: purple;
+}
+
+.c5 {
+position: absolute;
+left: 200px;
+border: solid;
+width: 100px;
+height: 100px;
+background-color: green;
+}
+
+.d1 {
+position: relative;
+top: 200px;
+border: solid;
+height: 100px;
+width: 100px;
+background-color: pink;
+border-radius: 50%;
+display: inline-block;
+}
+
+.d2 {
+position: relative;
+right: 25px;
+bottom: 25px;
+border: solid;
+height: 100px;
+width: 100px;
+background-color: red;
+border-radius: 50%;
+display: inline-block;
+}
+
+.d3 {
+position: relative;
+right: 25px;
+bottom: 25px;
+border: solid;
+height: 100px;
+width: 100px;
+background-color: magenta;
+border-radius: 50%;
+display: inline-block;
+}
